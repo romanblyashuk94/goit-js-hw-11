@@ -1,24 +1,24 @@
 {
-  "name": "goit-js-hw-10",
+  "name": "goit-js-hw-11",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://romanblyashuk94.github.io/goit-js-hw-10",
+  "homepage": "https://romanblyashuk94.github.io/goit-js-hw-11",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10/",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/romanblyashuk94/goit-js-hw-10.git"
+    "url": "git+https://github.com/romanblyashuk94/goit-js-hw-11.git"
   },
   "keywords": [],
   "author": "Roman Bliashuk <romanblyashuk94@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/romanblyashuk94/goit-js-hw-10/issues"
+    "url": "https://github.com/romanblyashuk94/goit-js-hw-11/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
