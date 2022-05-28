@@ -1,0 +1,36 @@
+{
+  "name": "goit-js-hw-10",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://romanblyashuk94.github.io/goit-js-hw-10",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanblyashuk94/goit-js-hw-10.git"
+  },
+  "keywords": [],
+  "author": "Roman Bliashuk <romanblyashuk94@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romanblyashuk94/goit-js-hw-10/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "gh-pages": "^4.0.0",
+    "notiflix": "^3.2.5",
+    "simplelightbox": "^2.10.3"
+  }
+}
